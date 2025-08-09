@@ -1,0 +1,27 @@
+{
+  "name": "steamguard-bot",
+  "version": "1.0.0",
+  "description": "SteamGuard Discord Bot for global marketplace scam prevention",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "scam-prevention",
+    "marketplace",
+    "security"
+  ],
+  "author": "SteamGuard Team",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "ws": "^8.16.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
